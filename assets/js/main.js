@@ -24,7 +24,7 @@
   // Scroll reveal — progressive enhancement: content is visible by default
   // (see CSS), JS opts in to the hidden/animated state only once it can
   // guarantee every element will be revealed again.
-  const revealTargets = document.querySelectorAll('.entry, .compare-card, .rung');
+  const revealTargets = document.querySelectorAll('.division-card');
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   if (revealTargets.length && !prefersReducedMotion && 'IntersectionObserver' in window) {
